@@ -45,11 +45,11 @@ class neuralNetwork:
     final_outputs = self.activation_function(final_inputs)
     return final_outputs;
 
-input_nodes = 784
-hidden_nodes = 100
-output_nodes = 10
+input_nodes = int(input("Put the input nodes number (default = 784): "))
+hidden_nodes = int(input("Put the hidden nodes number (default = 100): "))
+output_nodes = int(input("Put the output nodes number (default = 10): "))
 
-learning_rate = 0.3
+learning_rate = float(input("Put the learning rate (default = 0.3): "))
 
 n = neuralNetwork(input_nodes,hidden_nodes,output_nodes,learning_rate)
 
