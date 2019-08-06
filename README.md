@@ -5,7 +5,7 @@ A simple neural network written in Python. The goal of the NN is to find the cor
 
 ## Demonstration
 https://youtu.be/e1ufXApbMmUe
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/e1ufXApbMmUe)
+[![Watch the video](neural-network-image.png)](https://youtu.be/e1ufXApbMmUe)
 
 ## How to use
 Step 1: git clone git@github.com:FabioTranjan/simple-neural-network.git  
